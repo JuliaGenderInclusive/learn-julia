@@ -46,7 +46,7 @@ md"Reminder that **variable assignment** follows these rules:
 # ╔═╡ 54d251c5-2216-49d5-aac8-5df6d1fdcc26
 md"### String escape sequences
 
-Let's try to create a variable with the variable name being a dollar bill emoji (type :\ and press tab to see the options for emojis) and assign it the value $.
+Let's try to create a variable with the variable name being a dollar bill emoji (type \: and press tab to see the options for emojis) and assign it the value $.
 "
 
 # ╔═╡ 800d5ffe-0fef-433f-9166-a3028d1d2059
@@ -64,7 +64,7 @@ Julia complains about an 'invalid interpolation syntax'. The reason for this err
 "That'll be 6\$ please"
 
 # ╔═╡ 501d6e72-4382-46cc-b55c-d78b84e191de
-md"We've already used the double quotation marks\" \" a lot. The are delimiters, signaling to Julia where a string starts and ends. But what if we have quotation marks within a string? We can escape them with \\ - for example:"
+md"We've already used the double quotation marks \" \" a lot. The are delimiters, signaling to Julia where a string starts and ends. But what if we have quotation marks within a string? We can escape them with \\. Here's an example:"
 
 # ╔═╡ df8d33c5-6299-467b-82b0-23d1c77d017b
 barista = "The barista said: \"That'll be 6\$, please!\" and I pulled out my wallet"
@@ -190,7 +190,7 @@ md"It's also possible to skip characters. For example, here's how to extract eve
 our_string[1:2:9]
 
 # ╔═╡ 5caacb1e-ea96-421a-b1c1-9e30014646c3
-md"...or to count backwards:"
+md"...or to count backwards, extracting every second character:"
 
 # ╔═╡ a866f4d9-3ccc-48db-8922-d8d38e99a7dd
 our_string[9:-2:1]
