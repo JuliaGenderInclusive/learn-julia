@@ -1,4 +1,4 @@
-# julia-with-us
+# Learn Julia with us
 Materials for the Julia Gender Inclusive workshop series "Learn Julia with Us"
 
 01: Getting Started with Julia [(watch here)](https://youtu.be/oTUmW8dWZws)
