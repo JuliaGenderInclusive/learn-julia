@@ -10,3 +10,10 @@ Materials for the Julia Gender Inclusive workshop series "Learn Julia with Us"
 
 - Variables and error messages
 - Scripting and debugging in VSCode
+
+03: Strings & arrays [(watch here)](https://youtu.be/VmNj5t3H_ks)
+
+- String interpolation and escape sequences
+- Indexing
+- Data containers (specifically, arrays)
+- Create arrays with comprehensions
